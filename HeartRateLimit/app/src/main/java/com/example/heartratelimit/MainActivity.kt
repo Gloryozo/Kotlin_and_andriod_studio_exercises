@@ -50,7 +50,7 @@ fun HeartRateLimits(modifier: Modifier = Modifier) {
     val age = ageInput.toIntOrNull() ?: 0 // Age as int
     val upper = if (age > 0) (220 - age) * 0.85f else 0// Upper limit
     val lower = if (age > 0) (220 - age) * 0.65f else 0// Lower limit
-    val df = DecimalFormat("#.##")
+    val df = DecimalFormat("#.##") //used Java format rather than android format here
     df.roundingMode = RoundingMode.CEILING
     Column (
         modifier = modifier.padding(16.dp),
