@@ -1,6 +1,6 @@
 package com.example.heartratelimit
 
-import android.icu.text.DecimalFormat
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -25,6 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.heartratelimit.ui.theme.HeartRateLimitTheme
 import java.math.RoundingMode
+import java.text.DecimalFormat
 
 
 class MainActivity : ComponentActivity() {
