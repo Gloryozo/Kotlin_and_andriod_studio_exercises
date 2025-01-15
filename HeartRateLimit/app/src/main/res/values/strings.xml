@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Heart Rate Limit</string>
+    <string name="age">Age</string>
+    <string name="heart_rate_limits">
+        Your heart rate limits are %s - %s
+    </string>
 </resources>
